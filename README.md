@@ -17,6 +17,7 @@ that discourage, exhaust, or otherwise negatively affect other participants.
 
 ## Table of contents
 
+* [Experiments](#experiments)
 * [Support](#support)
 * [Release types](#release-types)
   * [Download](#download)
@@ -33,6 +34,10 @@ that discourage, exhaust, or otherwise negatively affect other participants.
   * [Triagers](#triagers)
   * [Release keys](#release-keys)
 * [License](#license)
+
+## Experiments
+
+This repository contains some experiments that help understanding how JS evaluation and libuv's event loop work. Please see [experiment](./experiment/) directory for more information.
 
 ## Support
 

@@ -22,6 +22,7 @@
 !.nycrc
 !.yamllint.yaml
 !.configurations/
+!.vscode/
 
 # === Rules for root dir ===
 /core

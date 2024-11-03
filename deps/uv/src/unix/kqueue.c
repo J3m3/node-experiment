@@ -382,7 +382,7 @@ void uv__io_poll(uv_loop_t* loop, int timeout) {
         have_signals = 1;
       } else {
         uv__metrics_update_idle_time(loop);
-        w->cb(loop, w, revents);
+        w->cb(loop, w, revents); // This is where the given callback is called
       }
 
       nevents++;

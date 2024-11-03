@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "fetch",
+      "program": "${workspaceFolder}/out/Debug/node",
+      "args": ["${workspaceFolder}/probe/fetch.js"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "one-fetch",
+      "program": "${workspaceFolder}/out/Debug/node",
+      "args": ["${workspaceFolder}/probe/one-fetch.js"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "one-timer",
+      "program": "${workspaceFolder}/out/Debug/node",
+      "args": ["${workspaceFolder}/probe/one-timer.js"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
