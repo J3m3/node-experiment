@@ -5,7 +5,7 @@
       "request": "launch",
       "name": "fetch",
       "program": "${workspaceFolder}/out/Debug/node",
-      "args": ["${workspaceFolder}/probe/fetch.js"],
+      "args": ["${workspaceFolder}/experiment/fetch.js"],
       "cwd": "${workspaceFolder}"
     },
     {
@@ -13,7 +13,7 @@
       "request": "launch",
       "name": "one-fetch",
       "program": "${workspaceFolder}/out/Debug/node",
-      "args": ["${workspaceFolder}/probe/one-fetch.js"],
+      "args": ["${workspaceFolder}/experiment/one-fetch.js"],
       "cwd": "${workspaceFolder}"
     },
     {
@@ -21,7 +21,7 @@
       "request": "launch",
       "name": "one-timer",
       "program": "${workspaceFolder}/out/Debug/node",
-      "args": ["${workspaceFolder}/probe/one-timer.js"],
+      "args": ["${workspaceFolder}/experiment/one-timer.js"],
       "cwd": "${workspaceFolder}"
     }
   ]
